@@ -1,0 +1,100 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f5ff;
+    color: #333;
+}
+
+.stopwatch-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    width: 450px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+.display {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px 0;
+    color: #2c3e50;
+    font-family: 'Courier New', monospace;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.start-btn {
+    background-color: #27ae60;
+}
+
+.stop-btn {
+    background-color: #e74c3c;
+}
+
+.reset-btn {
+    background-color: #3498db;
+}
+
+.lap-btn {
+    background-color: #9b59b6;
+}
+
+.laps {
+    margin-top: 30px;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+.lap-item {
+    padding: 8px 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lap-item:nth-child(odd) {
+    background-color: #f9f9f9;
+}
