@@ -2,8 +2,6 @@
 
 A simple, elegant, and functional stopwatch web application built with HTML, CSS, and JavaScript.
 
-![Stopwatch App Screenshot](https://via.placeholder.com/600x400)
-
 ## Features
 
 - **Accurate Timing**: Precise time tracking with hours, minutes, seconds, and milliseconds
